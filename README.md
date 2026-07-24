@@ -40,7 +40,7 @@ experiment_checkout_ui.csv → base utilizada para el test estadístico de compa
 
 Haz clic en el siguiente botón:
 
-https://colab.research.google.com/github/crisriverar/Analisys-RappiPlus-/blob/main/Analisis_RappiPlus.ipynb
+[https://colab.research.google.com/github/crisriverar/Analisys-RappiPlus-/blob/main/Analisis_RappiPlus.ipynb](https://colab.research.google.com/drive/12zc76ZiUCi0f50SVlcKehgWjdXx_dDgf?usp=sharing)
 
 O de forma manual:
 
