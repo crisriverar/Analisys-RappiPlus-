@@ -1,8 +1,8 @@
-Analysis-RappiPlus
+# Analysis-RappiPlus
 
 Este repositorio contiene el análisis realizado para el caso RappiPlus, un servicio de suscripción dentro del ecosistema de Rappi diseñado para aumentar la frecuencia de compra y el valor generado por usuario.
 
-📂 Contenido del repositorio
+📂 ##Contenido del repositorio
 
 El análisis se organiza en tres bloques de datos:
 
@@ -21,10 +21,13 @@ user_activity → actividad de los usuarios posterior al registro.
 3. Evaluación de impacto (experimentación A/B)
 
 experiment_checkout_ui.csv → base utilizada para el test estadístico de comparación de versiones.
-📊 Dashboard de resultados
+
+📊 ##Dashboard de resultados
+
 <img width="1308" height="632" alt="Dashboard general" src="https://github.com/user-attachments/assets/5302b869-1692-4007-8ba6-bd09480ef8a1" /> <img width="1302" height="713" alt="Dashboard de marketing" src="https://github.com/user-attachments/assets/335d8f3b-2e3b-4cf5-9401-460119f4832e" />
 
-🧠 Objetivo del análisis
+🧠 ##Objetivo del análisis
+
 Identificar problemas de calidad de datos.
 Construir un pipeline de limpieza reproducible.
 Analizar comportamientos, distribuciones y outliers.
@@ -33,7 +36,7 @@ Validar la tasa de retención para verificar si los usuarios regresan.
 Confirmar, mediante pruebas estadísticas, si los cambios implementados en la app generan un impacto real.
 Generar insights accionables para el equipo de Estrategia e Integración.
 
-▶️ Cómo abrir el notebook en Google Colab
+▶️ ##Cómo abrir el notebook en Google Colab
 
 Haz clic en el siguiente botón:
 
