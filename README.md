@@ -2,7 +2,7 @@
 
 Este repositorio contiene el análisis realizado para el caso RappiPlus, un servicio de suscripción dentro del ecosistema de Rappi diseñado para aumentar la frecuencia de compra y el valor generado por usuario.
 
-## 📂 Contenido del repositorio
+## Contenido del repositorio
 
 El análisis se organiza en tres bloques de datos:
 
@@ -22,11 +22,7 @@ user_activity → actividad de los usuarios posterior al registro.
 
 experiment_checkout_ui.csv → base utilizada para el test estadístico de comparación de versiones.
 
-## 📊 Dashboard de resultados
-
-<img width="1308" height="632" alt="Dashboard general" src="https://github.com/user-attachments/assets/5302b869-1692-4007-8ba6-bd09480ef8a1" /> <img width="1302" height="713" alt="Dashboard de marketing" src="https://github.com/user-attachments/assets/335d8f3b-2e3b-4cf5-9401-460119f4832e" />
-
-## 🧠 Objetivo del análisis
+## Objetivo del análisis
 
 - Identificar problemas de calidad de datos.
 - Construir un pipeline de limpieza reproducible.
@@ -36,7 +32,21 @@ experiment_checkout_ui.csv → base utilizada para el test estadístico de compa
 - Confirmar, mediante pruebas estadísticas, si los cambios implementados en la app generan un impacto real.
 - Generar insights accionables para el equipo de Estrategia e Integración.
 
-## ▶️ Cómo abrir el notebook en Google Colab
+## Conclusiones y recomendaciones
+
+El 83% de la ganancia total proviene de Electrónica, y dentro de esta categoría, Laptop-Gaming-16GB concentra la mayor parte de las ventas. Se recomienda diversificar el catálogo promocionado o evaluar el riesgo de depender de un solo producto ante variaciones de demanda o stock.
+
+La mayor caída del funnel (13,29%) ocurre entre "begin checkout" y "add payment info", no en etapas más tempranas como registro o selección de producto. Esto sugiere fricción en el proceso de pago (formularios largos, falta de métodos de pago, errores técnicos) más que un problema de interés del usuario. Se recomienda priorizar mejoras de UX en esta etapa antes que en marketing de adquisición.
+
+Aunque la versión B mostró una conversión 0,60% mayor, la diferencia no fue estadísticamente significativa (p=0,42). Se recomienda no escalar este cambio de forma definitiva y, en su lugar, extender el test con mayor tamaño de muestra o duración antes de tomar una decisión basada en esta prueba.
+
+Con un margen de ganancia neto del 11,51%, es clave evaluar la eficiencia del gasto en marketing por canal, dirigiendo inversión hacia los canales con mejor retorno relativo en lugar de distribuirlo de forma uniforme.
+
+## Dashboard de resultados
+
+<img width="1308" height="632" alt="Dashboard general" src="https://github.com/user-attachments/assets/5302b869-1692-4007-8ba6-bd09480ef8a1" /> <img width="1302" height="713" alt="Dashboard de marketing" src="https://github.com/user-attachments/assets/335d8f3b-2e3b-4cf5-9401-460119f4832e" />
+
+## Cómo abrir el notebook en Google Colab
 
 Haz clic en el siguiente botón:
 
