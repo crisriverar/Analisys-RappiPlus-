@@ -48,7 +48,7 @@ Con un margen de ganancia neto del 11,51%, es clave evaluar la eficiencia del ga
 
 ## Cómo abrir el notebook en Google Colab
 
-Haz clic en el siguiente botón:
+Haz clic en el siguiente link:
 
 [https://colab.research.google.com/github/crisriverar/Analisys-RappiPlus-/blob/main/Analisis_RappiPlus.ipynb](https://colab.research.google.com/drive/12zc76ZiUCi0f50SVlcKehgWjdXx_dDgf?usp=sharing)
 
